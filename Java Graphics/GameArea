@@ -1,0 +1,16 @@
+public class GameArea{
+    jPanel frame = new jPanel();
+    box box = new box(); 
+
+    GameArea(){
+        frame.add(box);
+
+        frame.setSize(305,510);
+        frame.getContentPane().setLayout(null);
+        frame.getContentPane().setBackground(Color.black);
+
+    }
+
+    }
+
+}
