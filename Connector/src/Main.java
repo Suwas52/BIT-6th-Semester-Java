@@ -1,41 +1,42 @@
-import javax.swing.plaf.nimbus.State;
 import java.sql.*;
 
-public class Main {
+public class Main{
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
+        String Url = "jdbc:mysql://localhost:3307/java_practice";
 
-        String url = "jdbc:mysql://localhost:3307/Java_Practice";
+        Connection conn = DriverManager.getConnection(Url,"root","");
+        System.out.println("Connection Successful");
 
-        //Connect to database;
-        Connection conn = DriverManager.getConnection(url,"root","");
-        System.out.println("connection successful");
+
 
         Statement statement = conn.createStatement();
 
-        //Insert data into table
-//        statement.executeUpdate("INSERT INTO new_table (id, name, email, address) VALUES (5, 'Dhiraj', 'suwasdanuwar1113@gmail.com', 'kataddri')");
+        statement.executeUpdate("update new_table set name = 'Janam Sunuwar', email = 'janam@gmail.com', address = 'pokhara' where id = 9 ");
 
-        //update data into table
-        statement.executeUpdate("UPDATE new_table SET name = 'Anoop Shrestha', email = 'anoopstha12@gmail.com', address = 'KamalPokhari' WHERE id =5 ");
 
-        //fetch data from the database;
-        ResultSet resultSet = statement.executeQuery("Select * from new_table");
-        //Prepared STATEMENT;
-//
-//        PreparedStatement preparedStatement = conn.prepareStatement("SELECT * from new_table WHERE id=? OR name =?");
-//        preparedStatement.setInt(1, 1);
-//        preparedStatement.setString(2,"Subash");
-//        ResultSet resultSet = preparedStatement.executeQuery();
+        String deteQuery = "delete from new_table where id = 8";
+        int delete = statement.executeUpdate(deteQuery);
+        System.out.println(delete);
 
-        while (resultSet.next()){
-            System.out.print(resultSet.getInt("id")+ " ");
-            System.out.print(resultSet.getString("name"));
+        if(delete > 0){
+            System.out.println("Data deleted successfully");
+        }
+        else {
+            System.out.println("No data found to delete");
+        }
+
+        ResultSet result = statement.executeQuery("Select * from new_table");
+
+        while(result.next()){
+            System.out.print(result.getInt("id")+ " ");
+            System.out.print(result.getString("name"));
             System.out.print(" ");
-            System.out.print(resultSet.getString("email"));
+            System.out.print(result.getString("email"));
             System.out.print(" ");
-            System.out.print(resultSet.getString("address"));
+            System.out.print(result.getString("address"));
             System.out.println("\n");
         }
+
     }
 }

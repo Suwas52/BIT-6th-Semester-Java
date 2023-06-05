@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2b13772-c72a-41f4-a9d7-d7f4d4a78df4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ChatAppGUI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/src/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Component of MultiThreading/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String/src/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UDP ChatApp/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UDP ChatApp/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ChatAppGUI/ChatAppGUI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Connector/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Connector/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subash.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormSwing/src/MultiplicationApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FormSwing/src/MultiplicationApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java Project/Calculator Java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Project/Calculator Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Layout-swings" beforeDir="false" afterPath="$PROJECT_DIR$/../../Layout-swings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice Java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice Java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2Qa7okajrmdAXClH751JO3Nj2eH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Dell/OneDrive/Desktop/Java All/Java Class/JAVA IMPORTANCE QUESTION",
+    "onboarding.tips.debug.path": "C:/Users/Dell/OneDrive/Desktop/Java All/Java Class/JAVA IMPORTANCE QUESTION/File Handling/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2b13772-c72a-41f4-a9d7-d7f4d4a78df4" name="Changes" comment="" />
+      <created>1685580015781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685580015781</updated>
+    </task>
+    <servers />
+  </component>
+</project>

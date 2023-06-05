@@ -13,18 +13,18 @@ public class MultiplicationApp extends JFrame {
     public MultiplicationApp() {
         // Set up the JFrame
         setTitle("Multiplication App");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLayout(null);
+
+        setLayout(new GridLayout(4,2));
 
         // Create the input fields
         number1Field = new JTextField();
-        number1Field.setBounds(100, 30, 150, 25);
+
         number2Field = new JTextField();
-        number2Field.setBounds(100, 60, 150, 25);
+
 
         // Create the OK button
         okButton = new JButton("OK");
-        okButton.setBounds(100, 90, 70, 25);
+
         okButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -42,7 +42,7 @@ public class MultiplicationApp extends JFrame {
 
         // Create the Exit button
         exitButton = new JButton("Exit");
-        exitButton.setBounds(180, 90, 70, 25);
+
         exitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -54,16 +54,16 @@ public class MultiplicationApp extends JFrame {
         // Create the result field
         resultField = new JTextField();
         resultField.setEditable(false);
-        resultField.setBounds(100, 135, 150, 25);
+
 
         // Add the components to the JFrame
-        add(new JLabel("Number 1:")).setBounds(10,30,100,25);
+        add(new JLabel("Number 1:"));
         add(number1Field);
-        add(new JLabel("Number 2:")).setBounds(10,60,100,25);
+        add(new JLabel("Number 2:"));
         add(number2Field);
         add(okButton);
         add(exitButton);
-        add(new JLabel("Result:")).setBounds(10,135,100,25);;
+        add(new JLabel("Result:"));
         add(resultField);
 
         // Set the size and make the JFrame visible
